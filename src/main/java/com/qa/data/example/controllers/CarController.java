@@ -37,7 +37,7 @@ public class CarController {
 		this.service = service;
 	}
 
-	@PostMapping("/create")
+	@PostMapping(value = "/create", produces = "application/json")
 	public ResponseEntity<Car> createCar(@RequestBody Car car) {
 		return this.service.createCar(car);
 	}
