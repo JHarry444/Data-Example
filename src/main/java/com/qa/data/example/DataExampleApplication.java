@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 import com.qa.data.example.persistence.domain.Car;
-import com.qa.data.example.persistence.repo.CarService;
+import com.qa.data.example.services.CarService;
 
 @SpringBootApplication
 public class DataExampleApplication {
